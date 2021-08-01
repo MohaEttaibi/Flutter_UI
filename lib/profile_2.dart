@@ -10,6 +10,7 @@ class Profile2 extends StatefulWidget {
 
 class _Profile2State extends State<Profile2> {
   Profile profile = ProfileProvider.getProfile();
+  List<String> images = ['me1', 'me2', 'me3', 'me4'];
 
   @override
   Widget build(BuildContext context) {
@@ -104,7 +105,7 @@ class _Profile2State extends State<Profile2> {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
-                      image: ExactAssetImage("assets/me.jpg"),
+                      image: ExactAssetImage("assets/me2.jpg"),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -245,7 +246,7 @@ class _Profile2State extends State<Profile2> {
                     shape: BoxShape.circle,
                     image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: ExactAssetImage("assets/me.jpg"),
+                      image: ExactAssetImage("assets/${images[index]}.jpg"),
                     ),
                   ),
                 ),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'profile_2.dart';
 import 'profile_3.dart';
 
 void main() {
@@ -10,11 +9,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter UI',
+      // title: 'Flutter UI',
       // theme: ThemeData(
-      //   primarySwatch: Colors.blue,
+      //   primarySwatch: Colors.orange,
       // ),
-      home: Profile2(),
+      home: Profile3(),
       debugShowCheckedModeBanner: false,
     );
   }
