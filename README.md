@@ -12,6 +12,6 @@ for Info contact me:
 - [Twitter](https://twitter.com/mohammedettayby)
 - [Gmail](mohammed.ettayby@gmail.com)
 
-# Profile Screenshot
+## Preview
+![Preview](https://github.com/MohaEttaibi/Flutter_UI/blob/profile3/flutter_04.png)
 
-[profile 1](flutter_02.png)
